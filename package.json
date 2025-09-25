@@ -1,0 +1,27 @@
+{
+  "name": "passwordmanager",
+  "version": "1.0.0",
+  "description": "Phan mem quan ly mat khau",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": "nodemon ./app.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangKlee/passwordmanager.git"
+  },
+  "author": "YangKlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YangKlee/passwordmanager/issues"
+  },
+  "homepage": "https://github.com/YangKlee/passwordmanager#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
